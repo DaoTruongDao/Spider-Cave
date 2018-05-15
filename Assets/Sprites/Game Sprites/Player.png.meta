@@ -85,25 +85,25 @@ TextureImporter:
         width: 85
         height: 176
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: Player_1
       rect:
         serializedVersion: 2
-        x: 124
-        y: 5
+        x: 129
+        y: 8
         width: 122
         height: 176
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: Player_2
       rect:
@@ -113,11 +113,11 @@ TextureImporter:
         width: 152
         height: 176
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: Player_3
       rect:
@@ -127,39 +127,39 @@ TextureImporter:
         width: 122
         height: 176
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: Player_4
       rect:
         serializedVersion: 2
         x: 601
-        y: 7
+        y: 8
         width: 118
         height: 176
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     - serializedVersion: 2
       name: Player_5
       rect:
         serializedVersion: 2
         x: 734
-        y: 14
+        y: 15
         width: 152
         height: 169
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
