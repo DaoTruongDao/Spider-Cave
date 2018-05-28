@@ -241,7 +241,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\Player Script\PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\Spider Script\SpiderBullet.cs" />
+    <Compile Include="Assets\Scripts\Spider Script\SpiderJumper.cs" />
+    <Compile Include="Assets\Scripts\Spider Script\SpiderShooter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
