@@ -8,13 +8,13 @@ public class PlayerScript : MonoBehaviour {
     public float jumpForce = 700f; //nhảy với tốc độ bao nhiêu
     public float maxVelocity = 4f; //vận tốc
 
-    public bool grounded; //dùng để so sánh với nền đất để có thể di chuyển và nhảy
+    private bool grounded; //dùng để so sánh với nền đất để có thể di chuyển và nhảy
 
     private Rigidbody2D myBody;
     private Animator anim;
     // Use this for initialization
 
-    private void Awake()
+    void Awake()
     {
         myBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -24,7 +24,7 @@ public class PlayerScript : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate() {
         PlayerWalkKeyBoard();
 	}
 
@@ -72,9 +72,10 @@ public class PlayerScript : MonoBehaviour {
                 }
 
             }
-            Vector3 scale = transform.localScale;
+            Vector3 scale = transform.localScale;// Di chuyển nhân vật thì player sẽ quay về vị trị đó
             scale.x = -1f;
             transform.localScale = scale;
+
             anim.SetBool("Walk", true);
         }
         else if (h == 0)
