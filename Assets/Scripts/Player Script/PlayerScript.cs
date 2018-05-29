@@ -92,6 +92,14 @@ public class PlayerScript : MonoBehaviour {
         }
         myBody.AddForce(new Vector2(forceX, forceY));
     }
+    public void BouncePlayerWithBouncy(float force)
+    {
+        if (grounded)
+        {
+            grounded = false;
+            myBody.AddForce(new Vector2(0, force));//nhảy theo chiề y nên cho x = 0; y sẽ = force
+        }
+    }
     void OnCollisionEnter2D(Collision2D target)
     {
         if (target.gameObject.tag == "Ground")
