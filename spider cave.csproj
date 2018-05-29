@@ -241,6 +241,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Collectables Script\DiamondScript.cs" />
+    <Compile Include="Assets\Scripts\Door Script\Door.cs" />
     <Compile Include="Assets\Scripts\Player Script\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\Spider Script\SpiderBullet.cs" />
     <Compile Include="Assets\Scripts\Spider Script\SpiderJumper.cs" />
