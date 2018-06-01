@@ -242,6 +242,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Bouncer Script\Bouncy.cs" />
+    <Compile Include="Assets\Scripts\Camera Script\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Collectables Script\DiamondScript.cs" />
     <Compile Include="Assets\Scripts\Controller Script\HighScore.cs" />
     <Compile Include="Assets\Scripts\Controller Script\LevelMenuController.cs" />
