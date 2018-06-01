@@ -157,7 +157,7 @@ Transform:
   - {fileID: 634810513}
   - {fileID: 1309332229}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &55342093 stripped
 Transform:
@@ -986,7 +986,7 @@ Transform:
   - {fileID: 1358700804}
   - {fileID: 1062991603}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &373103143
 GameObject:
@@ -4927,7 +4927,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4028527889107364, guid: f9f6366333680bc4f9b8256c6ece5d6f, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f9f6366333680bc4f9b8256c6ece5d6f, type: 2}

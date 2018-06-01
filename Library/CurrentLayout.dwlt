@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 683, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 100
+  controlID: 10
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,7 +130,7 @@ MonoBehaviour:
     y: 0
     width: 1089
     height: 635
-  m_MinSize: {x: 406, y: 492}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
   controlID: 11
@@ -154,8 +154,8 @@ MonoBehaviour:
     y: 0
     width: 1089
     height: 357
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
   controlID: 12
 --- !u!114 &8
@@ -176,8 +176,8 @@ MonoBehaviour:
     y: 0
     width: 202
     height: 357
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -255,8 +255,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 635
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -513,10 +513,10 @@ MonoBehaviour:
     height: 336
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 1236.5955}
-    m_SelectedIDs: 9e25fcff
-    m_LastClickedID: -252514
-    m_ExpandedIDs: 10d3faff7ce3faff9e25fcff8249fdff1a53fdff8e5efdff9cb9fdff3435ffff2edaffff9efbffff00000000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 98300000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 447bfafff87bfaff3482faff24a7faffeaaffaffb4b3faffeeb9faffe6bcfaff18c1faff0ae2faff08e3faff66ebfafffeedfaffc402fbff8203fbffa805fbffba07fbffb608fbffd00bfbff962ffbff4631fbff9c32fbffc029fcff5c41fcff1643fcff24cefcff321bfdff221efdff5628fdffe4b8fdff148ffeff8809ffffd8d7ffffe2d7fffffcd9fffff6e2ffff9efbffff00000000ec3000002a330000e833000064340000ee3400000e35000034370000c63b0000b43c0000304300008e440000b8440000ca440000d444000018450000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -535,7 +535,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
   m_ExpandedScenes:
-  - game play
+  - MainMenu
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -567,14 +567,14 @@ MonoBehaviour:
     height: 336
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 3519.437385442139
+  lastFramingTime: 100.90144410260622
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 144.33156, y: -0.17729738, z: -0.2421875}
+    m_Target: {x: 0, y: 0, z: -10}
     speed: 2
-    m_Value: {x: 144.33156, y: -0.17729738, z: -0.2421875}
+    m_Value: {x: 0, y: 0, z: -10}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -602,9 +602,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 26.257399
+    m_Target: 22
     speed: 2
-    m_Value: 26.257399
+    m_Value: 22
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -655,33 +655,33 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs/Spider Prefabs/Spider jumper
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/Prefabs/Spider Prefabs/Spider jumper
+  - Assets/Scenes
   m_LastFoldersGridSize: 57
   m_LastProjectPath: C:\Users\Dao Vip\Documents\spider cave
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 356}
-    m_SelectedIDs: ac280000
-    m_LastClickedID: 10412
-    m_ExpandedIDs: 0000000092270000ac270000ea270000062800003028000054280000ae28000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 308}
+    m_SelectedIDs: 12290000
+    m_LastClickedID: 10514
+    m_ExpandedIDs: 0000000092270000ee2700000e2800004028000064280000be28000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Spider jumper
-      m_OriginalName: Spider jumper
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 10412
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -695,7 +695,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000092270000ac270000ea270000062800003028000054280000
+    m_ExpandedIDs: 0000000092270000ac270000ee2700000e2800004028000064280000be280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

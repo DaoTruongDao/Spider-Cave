@@ -243,6 +243,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Bouncer Script\Bouncy.cs" />
     <Compile Include="Assets\Scripts\Collectables Script\DiamondScript.cs" />
+    <Compile Include="Assets\Scripts\Controller Script\HighScore.cs" />
+    <Compile Include="Assets\Scripts\Controller Script\LevelMenuController.cs" />
+    <Compile Include="Assets\Scripts\Controller Script\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\Door Script\Door.cs" />
     <Compile Include="Assets\Scripts\Player Script\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\Spider Script\SpiderBullet.cs" />
