@@ -30,6 +30,7 @@ public class AirTimer : MonoBehaviour {
         }
         else
         {
+            GetComponent<GamePlayController>().PlayerDied();
             Destroy(player);
         }
 	}

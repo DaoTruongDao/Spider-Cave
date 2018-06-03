@@ -31,6 +31,7 @@ public class LevelTimer : MonoBehaviour {
         }
         else
         {
+            GetComponent<GamePlayController>().PlayerDied();
             Destroy(player);
         }
 	}
