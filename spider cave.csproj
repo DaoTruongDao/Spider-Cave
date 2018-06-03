@@ -251,6 +251,7 @@
     <Compile Include="Assets\Scripts\GamePlay Controller\AirTimer.cs" />
     <Compile Include="Assets\Scripts\GamePlay Controller\GamePlayController.cs" />
     <Compile Include="Assets\Scripts\GamePlay Controller\LevelTimer.cs" />
+    <Compile Include="Assets\Scripts\Joystick Script\Joystick.cs" />
     <Compile Include="Assets\Scripts\Player Script\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\Spider Script\SpiderBullet.cs" />
     <Compile Include="Assets\Scripts\Spider Script\SpiderJumper.cs" />

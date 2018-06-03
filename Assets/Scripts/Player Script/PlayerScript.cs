@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class PlayerScript : MonoBehaviour {
@@ -12,22 +13,91 @@ public class PlayerScript : MonoBehaviour {
 
     private Rigidbody2D myBody;
     private Animator anim;
+
+    private bool moveLeft, moveRight;
     // Use this for initialization
 
     void Awake()
     {
         myBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        GameObject.Find("Jump").GetComponent<Button>().onClick.AddListener(() => Jump());
     }
+
+    public void SetMoveLeft(bool moveLeft)
+    {
+        this.moveLeft = moveLeft;
+        this.moveRight = !moveLeft;
+    }
+    public void StopMoving()
+    {
+        this.moveLeft = false;
+        this.moveRight = false;
+    }
+
     void Start () {
 		
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate() {
-        PlayerWalkKeyBoard();
-	}
+        PlayerWalkerJoyStick();
+        //PlayerWalkKeyBoard();
+    }
 
+    //di chuyển bằng joystick
+    void PlayerWalkerJoyStick()
+    {
+        float forceX = 0f;
+        float vel = Mathf.Abs(myBody.velocity.x);
+
+        if (moveRight)
+        {
+            if (vel < maxVelocity)
+            {//nhân vật di chuyển về bên phải
+                if (grounded)
+                {
+                    forceX = moveForce;
+                }
+                else
+                {
+                    forceX = moveForce * 1.1f;
+                }
+            }
+            Vector3 scale = transform.lossyScale; //di chuyển nhân vậy thì player sẽ quay  về vị trí đó
+            scale.x = 1f;
+            transform.localScale= scale;
+
+            anim.SetBool("Walk", true);
+        }
+        else if (moveLeft)
+        {
+            if (vel < maxVelocity)
+            {//nhân vật di chuyển về bên trái
+                if (grounded)
+                {
+                    forceX = -moveForce;
+                }
+                else
+                {
+                    forceX = -moveForce * 1.1f;
+                }
+            }
+            Vector3 scale = transform.lossyScale; //di chuyển nhân vậy thì player sẽ quay  về vị trí đó
+            scale.x = -1f;
+            transform.localScale = scale;
+
+            anim.SetBool("Walk", true);
+
+        }
+        else
+        {
+            anim.SetBool("Walk", false);
+        }
+        myBody.AddForce(new Vector2(forceX, 0));
+    }
+
+    //di chuyển bằng bàn phím
     void PlayerWalkKeyBoard()
     {
         float forceX = 0f; //di chuyển theo chiều ngang;
@@ -98,6 +168,15 @@ public class PlayerScript : MonoBehaviour {
         {
             grounded = false;
             myBody.AddForce(new Vector2(0, force));//nhảy theo chiề y nên cho x = 0; y sẽ = force
+        }
+    }
+
+    public void Jump()
+    {
+        if (grounded)
+        {
+            grounded = false;
+            myBody.AddForce(new Vector2(0, jumpForce));//nhảy theo chiề y nên cho x = 0; y sẽ = force
         }
     }
     void OnCollisionEnter2D(Collision2D target)
